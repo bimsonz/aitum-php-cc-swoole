@@ -1,0 +1,27 @@
+{
+  "name": "bimsonz/aitum-php-cc-swoole",
+  "description": "Swoole server plugin for Aitum PHP custom code.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Aitum\\CustomCode\\Swoole\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Zach Bimson",
+      "email": "zach@bison.digital"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "ext-swoole": "^5.0",
+    "swoole/ide-helper": "^5.0",
+    "nikic/fast-route": "^1.3",
+    "composer/composer": "^2.5",
+    "bimsonz/aitum-php-cc": "dev-main"
+  },
+  "scripts": {
+    "aitum-cc:setup": "Aitum\\CustomCode\\Command\\EnvSetupCommand"
+  }
+}

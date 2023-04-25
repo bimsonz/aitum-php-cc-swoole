@@ -1,0 +1,21 @@
+# Ignore composer dependency directory
+/vendor/
+
+/composer.lock
+
+# Ignore PHPStorm and other JetBrains IDE configuration files
+/.idea/
+
+# Ignore Visual Studio Code configuration files
+/.vscode/
+
+# Ignore macOS Finder metadata files
+.DS_Store
+
+# Ignore temporary files created by editors and the operating system
+*.tmp
+*.bak
+*.swp
+*.swo
+*~`
+
